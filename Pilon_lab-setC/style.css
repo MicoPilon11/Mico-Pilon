@@ -1,0 +1,232 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+header {
+  background-color: antiquewhite;
+}
+
+.header-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding: 1.5rem 4rem;
+}
+
+.search {
+  flex-grow: 2;
+  text-align: center;
+}
+
+.search input {
+  padding: 12px;
+  width: 50%;
+  border-radius: 4px;
+  border: none;
+}
+
+.navigation {
+  padding: 1rem 0rem;
+}
+
+.navigation ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: gray;
+  padding: 30px;
+}
+
+.navigation ul li {
+  list-style-type: none;
+}
+
+.hero {
+  background-image: url("images/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img {
+  width: 50%;
+  padding: 10px;
+}
+
+.hero-h1 {
+  font-weight: 900;
+  font-size: 3em;
+}
+
+.hero-p {
+  margin-top: -30px;
+  opacity: 0.6;
+}
+
+button {
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  padding: 1em 2em;
+  border: none;
+  font-weight: 700;
+}
+
+.listing-cards {
+  margin: 2em 10em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.cards {
+  border: solid rgb(228, 225, 225) 2px;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.car-img img {
+  width: 100%;
+}
+
+.card-btn {
+  background-color: white;
+  width: 100%;
+  color: red;
+  border: solid;
+}
+
+.card-desc h1 {
+  font-size: 20px;
+}
+.card-price {
+  margin: 0;
+  color: rgb(19, 93, 231);
+  font-weight: 700;
+}
+
+.span-price {
+  color: rgb(184, 184, 184);
+  text-decoration: line-through;
+}
+.btns{
+  text-decoration: none;
+  color: grey;
+}
+
+.card-cat {
+  margin: 0;
+  color: rgb(184, 184, 184);
+}
+
+.hot h1 {
+  text-align: center;
+  color: rgb(219, 52, 52);
+}
+.navi {
+  display: none;
+}
+footer {
+  padding: 6px;
+  background-color: black;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+}
+@media screen and (max-width: 1000px) {
+  .header-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 10px;
+  }
+  .search {
+    display: none;
+  }
+
+  .search input {
+    display: none;
+  }
+  .cart {
+    display: none;
+  }
+  .hero-img {
+    display: none;
+  }
+  .hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    padding: 10px;
+  }
+  .hero-desc {
+    text-align: center;
+  }
+  .hero-p {
+    color: red;
+  }
+  .listing-cards {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  .cards {
+    border: solid rgb(228, 225, 225) 2px;
+    width: 500px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+  }
+  .car-img img {
+    width: 300px;
+  }
+  .card-btn {
+    background-color: white;
+    width: 300px;
+    color: red;
+    border: solid;
+  }
+  .navigation {
+    display: none;
+  }
+  .navi {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: ghostwhite;
+  }
+  .navi ul li {
+    list-style-type: none;
+    padding: 20px;
+  }
+  .navi ul li a {
+    text-decoration: none;
+    color: red;
+  }
+}

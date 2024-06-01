@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beach Resort Reservation</title>
+  <link rel="stylesheet" href="./style/styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/la_vanessa-removebg-preview.png" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1 class="text1"> <img src="./images/la_vanessa-removebg-preview.png" alt=""> La Vanessa Beach Resort</h1>  
+      <nav class="nav">
+        <a href="/IT26_1stLabExam/index.html">Home</a>&nbsp;&nbsp;
+        <a href="Cottages.html">Cottages</a>&nbsp;&nbsp;
+        <a href="RoomRates.html">Room Rates</a>&nbsp;&nbsp;
+        <a href="reservation.html">Reservation</a>&nbsp;&nbsp;
+        <a href="about.html">About us</a>&nbsp;&nbsp;
+      </nav>
+    </div>
+  </header>
+  <div class="containers">
+    <h1 class="to">Book Your Stay</h1>
+    <form class="reservation-form">
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label for="check-in">Check-in Date</label>
+        <input type="date" id="check-in" name="check-in" required>
+      </div>
+      <div class="form-group">
+        <label for="check-out">Check-out Date</label>
+        <input type="date" id="check-out" name="check-out" required>
+      </div>
+      <div class="form-group">
+        <label for="room-type">Room Type</label>
+        <select id="room-type" name="room-type" required>
+          <option value="">Select Room Type</option>
+          <option value="Room-1">Barkadahan Room</option>
+          <option value="Room-2">Celestial Room</option>
+          <option value="Room-3">Excutive Room</option>
+          <option value="Room-4">Superior Room</option>
+          <option value="Room-5">Family Room</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="comments">Any Comments</label>
+        <textarea id="comments" name="comments" placeholder="Any special requests or comments"></textarea>
+      </div>
+      <button type="submit">Book Now</button>
+    </form>
+  </div>
+  <footer>
+    <div class="footer dis_font">
+        <div class="contact_us">
+            <p class="footer_text">Contact us:</p>
+        </div>
+        <div class="footer_discription">
+            <p><a href="https://www.google.com/maps/dir/8.9449209,125.532939/7.2079759,125.8823433/@8.1304063,125.3618419,8.5z/data=!4m4!4m3!1m1!4e1!1m0?entry=ttu"
+                    target="_blank"><img class="fot-logo" src="./images/loc.png" alt="">Prk. Bitoon 1, Brgy. Tagdangua, Pantukan,
+                    Davao de Oro, Pantukan, Philippines
+            </p></a>
+            <p><img class="fot-logo" src="./images/phone.png" alt="">0912 641 6702</p>
+            <p><img class="fot-logo" src="./images/email.png" alt="">reservations.lavanessa@gmail.com</p>
+            <p><a href="https://www.instagram.com/lavanessa_beach/?fbclid=IwAR0lS7ShGgK0rmvEEBi5JHeQY59ZuGNq1hYckWcBYNOXnEMsXVFPKYA6vuc"
+                    target="_blank"><img class="fot-logo" src="./images/insta.png" alt="">lavanessa_beach</p> </a>
+            <p><a href="https://la-vanessa.com/LA-VANESSA-WEBSITE/" target="_blank"><img class="fot-logo" src="./images/web.png"
+                        alt="">la-vanessa.com</p> </a>
+                        <div class="fot" >
+                        <p>&copy; 2024 La Vanessa Beach Resort. All rights reserved.</p>
+                        </div>
+        </div>
+    </div>
+  </footer> 
+</body>
+
+</html>

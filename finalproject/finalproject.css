@@ -1,0 +1,117 @@
+body
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(53deg, #ffffff 0%, #ffffff 39%, #ff9500 80%);
+}
+.cover
+{
+    height: 600px;
+    width: 1600px;
+}
+.head
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    text-align: center;
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.US
+{
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.about
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 100px;
+    text-align: center;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(36deg, #ffffff 0%, #ff9500 64%, #ff9500 99%);
+    padding: 10px 0;
+    z-index: 1000; 
+  }
+  
+  .navbar ul 
+  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .navbar ul li 
+  {
+    display: inline;
+  }
+  
+  .navbar ul li a 
+  {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    display: inline-block;
+  }
+
+
+footer 
+{
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+.container 
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card 
+{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.card img 
+{
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+footer 
+{
+    background-color: transparent;
+    color: rgb(0, 0, 0)000;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.btns{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}

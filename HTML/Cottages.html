@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Cottages</title>
+    <link rel="stylesheet" href="./style/main.css">
+    <style>
+        /* Adding some basic CSS for the flip card */
+        .flip-card {
+            background-color: transparent;
+            width: 300px;
+            height: 300px;
+            perspective: 1000px;
+            margin: 10px;
+        }
+        .flip-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+        }
+        .flip-card:hover .flip-card-inner {
+            transform: rotateY(180deg);
+        }
+        .flip-card-front, .flip-card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+        }
+        .flip-card-front {
+            background-color: #bbb;
+            color: black;
+        }
+        .flip-card-back {
+            background-color: dodgerblue;
+            color: white;
+            transform: rotateY(180deg);
+        }
+        /* Flexbox for the container of the flip cards */
+        .flip-card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Cottages</h1>
+        </header>
+        <nav>
+            <b>
+                <a href="index.html">Home</a>&nbsp;&nbsp;
+                <a href="Cottages.html">Cottages</a>&nbsp;&nbsp;
+                <a href="activities.html">Activities</a>&nbsp;&nbsp;
+                <a href="reservation.html">Reservation</a>&nbsp;&nbsp;
+            </b>
+        </nav>
+        <div id="Cottageshero"></div>
+        <div class="flip-card-container">
+            <!-- Flip Card 1 -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="./images/6197423_orig.jpg" alt="Cottage 1" style="width:300px;height:300px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Cottage 1</h1>
+                        <p>Description for Cottage 1.</p>
+                        <p>Avail now!</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Flip Card 2 -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="./images/3429929_orig.jpg" alt="Cottage 2" style="width:300px;height:300px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Cottage 2</h1>
+                        <p>Description for Cottage 2.</p>
+                        <p>Avail now!</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Flip Card 3 -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="./images/jamaica-beach-restaurant-caribbean.jpg" alt="Cottage 3" style="width:300px;height:300px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Cottage 3</h1>
+                        <p>Description for Cottage 3.</p>
+                        <p>Avail now!</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Flip Card 4 -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="./images/natsuca-beach-resort.jpg" alt="Cottage 4" style="width:300px;height:300px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Cottage 4</h1>
+                        <p>Description for Cottage 4.</p>
+                        <p>Avail now!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <main>
+            <h2>The Cottages</h2>
+            <dl>
+                <dt><b>Here are our beautiful Cottages</b></dt>
+                <dd>Our luxury are permanent structures four feet off the ground. Enjoy yurts with canvas walls, a wooden floor, a roof dome that can be opened, and a private deck.
+                </dd>
+                <dt><b>How are the Cottages furnished?</b></dt>
+                <dd>Each Cottage is furnished with a gas fireplace, king-size bed with down quilt, comfy couch, dining table and chairs, mini-fridge, microwave, and coffee maker. Your luxury camping experience includes a sink with hot and cold running water. Shower and restroom facilities are located in the lodge.
+                </dd>
+                <dt><b>What should I bring?</b></dt>
+                <dd>Most guests pack comfortable walking shoes and plan to dress for changing weather with light layers of clothing. It's also helpful to bring a flashlight and a sense of adventure!
+                </dd>
+            </dl>
+        </main>
+        <footer>
+            Copyright &copy; Cottages<br>
+            <a href="mailto:mico@pacifictrails.com">mico@pacifictrails.com</a>
+        </footer>
+    </div>
+</body>
+</html>
