@@ -126,16 +126,16 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 #cottages {
-  background: #171616 url(/IT26_1stLabExam/images/cottage4.jpg) center center/cover no-repeat;
+  background: #171616 url(/Mico-Pilon/IT26_1stLabExam/images/cottage4.jpg) center center/cover no-repeat;
 }
 #about {
-  background: url(/IT26_1stLabExam/images/booknow.jpg)center center/cover no-repeat;
+  background: url(/Mico-Pilon/IT26_1stLabExam/images/booknow.jpg)center center/cover no-repeat;
 }
 #room-rates {
-  background: #171616 url(/IT26_1stLabExam/images/read\ more.jpg) center center/cover no-repeat;
+  background: #171616 url(/Mico-Pilon/IT26_1stLabExam/images/read\ more.jpg) center center/cover no-repeat;
 }
 #reservations{
-  background: #171616 url(/IT26_1stLabExam/images/book2.jpg) center center/cover no-repeat;
+  background: #171616 url(/Mico-Pilon/IT26_1stLabExam/images/book2.jpg) center center/cover no-repeat;
 }
 .flip-card-inner {
   width: 100%;
@@ -280,7 +280,7 @@ button:hover {
   padding: 20px;
 }
   .heroes {
-    background-image: url('/IT26_1stLabExam/images/heroIMG2.jpg');
+    background-image: url('/Mico-Pilon/IT26_1stLabExam/images/heroIMG2.jpg');
     background-size: cover;
     color: #f7f7f7;
     text-align: center;
@@ -400,7 +400,7 @@ nav a:hover {
   padding: 10px;
 }
 header {
-    background-image: url('/IT26_1stLabExam/images/headerfade.jpg');
+    background-image: url('/Mico-Pilon/IT26_1stLabExam/images/headerfade.jpg');
     background-size: cover; 
     background-position: center; 
     color: #fff; 
